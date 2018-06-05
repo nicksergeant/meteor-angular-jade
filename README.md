@@ -19,7 +19,7 @@ package if you want to use jade with NPM's angular package.
 ## Instalation 
 
 ```bash
-meteor add victor755:meteor-angular-jade
+meteor add nicksergeant:meteor-angular-jade
 ```
 
 This package does not assume that you will use a specific version of 
