@@ -32,7 +32,7 @@ class NgJadeCompiler extends CachingCompiler {
      * setup babel options
      */
     var babelOptions = Babel.getDefaultOptions();
-    babelOptions.sourceMap = true;
+    babelOptions.sourceMaps = true;
     babelOptions.ast = false;
     jadeOpts.filename = inputPath;
     contents = jade.compile(contents, jadeOpts)();
@@ -93,7 +93,7 @@ class NgJadeCompiler extends CachingCompiler {
       path: newPath,
       sourcePath: inputPath,
       data: compileResult.code,
-      sourceMap: compileResult.map,
+      sourceMaps: compileResult.map,
     });
   }
 }
